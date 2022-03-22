@@ -1,0 +1,14 @@
+.container {
+  background-color: #4261ee;
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.footer__title {
+  margin-bottom: 1rem;
+}
+
+.footer__author {
+  margin-bottom: 1rem;
+}
