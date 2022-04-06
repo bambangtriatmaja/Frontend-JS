@@ -8,11 +8,11 @@
 .addMovieForm__image {
   border-radius: 50px;
   max-width: 100%;
-  margin-bottom: 1rem;
+  margin-top: 3rem;
 }
 
 .addMovieForm__title {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: #4261ee;
 }
 
@@ -28,6 +28,21 @@
   margin: 8px 0;
   padding: 12px 20px;
   width: 70%;
+  border-radius: 10px;
+  border-color: #4261ee;
+}
+
+.addMovieForm__posterForm {
+  margin: 8px 0;
+  padding: 12px 20px;
+  width: 120%;
+  border-radius: 10px;
+  border-color: #4261ee;
+}
+.addMovieForm__typeForm {
+  margin: 8px 0;
+  padding: 12px 20px;
+  width: 120%;
   border-radius: 10px;
   border-color: #4261ee;
 }
