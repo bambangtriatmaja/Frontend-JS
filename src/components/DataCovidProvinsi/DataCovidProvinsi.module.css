@@ -1,0 +1,84 @@
+/* Small screen */
+.container {
+  padding: 1rem;
+  text-align: center;
+}
+.data__title {
+  margin-top: 1rem;
+  color: #06d6a0;
+  font-size: 2.4rem;
+}
+.data__description {
+  color: #118ab2;
+  font-size: 1.5rem;
+}
+.table__data {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+table,
+th,
+td {
+  border: 1px solid #64748b;
+  border-collapse: collapse;
+  color: #64748b;
+  margin: 0 auto;
+  font-size: small;
+}
+table th {
+  color: #06d6a0;
+}
+.table__dataHeaderNomor {
+  padding: 2px;
+}
+.table__dataHeaderProvinsi {
+  padding: 2px 4px;
+}
+.table__dataHeaderPositive {
+  padding: 2px 3px;
+}
+.table__dataHeaderSembuh {
+  padding: 2px 3px;
+}
+.table__dataHeaderDirawat {
+  padding: 2px 3px;
+}
+.table__dataHeaderMeninggal {
+  padding: 2px 3px;
+}
+/* Medium Screen */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  table,
+  th,
+  td {
+    font-size: 1rem;
+  }
+  .table__dataHeaderNomor {
+    padding: 0.5rem 1rem;
+  }
+  .table__dataHeaderProvinsi {
+    padding: 0 3rem;
+  }
+  .table__dataHeaderPositive {
+    padding: 0 2rem;
+  }
+  .table__dataHeaderSembuh {
+    padding: 0 1.5rem;
+  }
+  .table__dataHeaderDirawat {
+    padding: 0 1.5rem;
+  }
+  .table__dataHeaderMeninggal {
+    padding: 0 1.5rem;
+  }
+}
+/* Large Screen */
+@media (min-width: 992px) {
+  .table__dataHeaderProvinsi {
+    padding: 0rem 5rem;
+  }
+}

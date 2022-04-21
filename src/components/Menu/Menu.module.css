@@ -1,0 +1,19 @@
+.navbar__list {
+  list-style: none;
+}
+
+.navbar__item {
+  margin-bottom: 1rem;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+  .navbar__list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar__item {
+    margin: 0 1rem;
+  }
+}

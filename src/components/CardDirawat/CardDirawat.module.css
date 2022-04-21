@@ -1,0 +1,22 @@
+.card__dirawat {
+  padding: 2rem 6rem;
+  margin: 1rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.card__dirawat h3 {
+  color: #073b4c;
+}
+.card__dirawat h4 {
+  color: #118ab2;
+}
+
+/* Large screen */
+@media (min-width: 992px) {
+  .card__dirawatTitle {
+    font-size: 1.9rem;
+  }
+  .card__dirawatNumber {
+    font-size: 2.4rem;
+  }
+}

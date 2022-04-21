@@ -1,0 +1,109 @@
+/* Small Screen */
+.container {
+  padding: 1rem;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.addDataForm__left {
+  display: none;
+}
+
+.addDataForm__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.addDataForm__title {
+  color: #06d6a0;
+  font-size: 2.44rem;
+  margin-bottom: 0.5rem;
+}
+
+.addDataForm__label {
+  color: #073b4c;
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.addDataForm__selectProvinsi {
+  border-radius: 10px;
+  padding: 0.8rem 3rem;
+  margin: 1rem;
+  font-size: medium;
+  border-color: #06d6a0;
+  color: #64748b;
+}
+.addDataForm__selectStatus {
+  border-radius: 10px;
+  padding: 0.8rem 3rem;
+  margin: 1rem;
+  font-size: medium;
+  border-color: #06d6a0;
+  color: #64748b;
+}
+
+.addDataForm__jumlah {
+  border-radius: 10px;
+  padding: 0.8rem 0.5rem;
+  margin: 1rem;
+  font-size: medium;
+  border-color: #06d6a0;
+  color: #64748b;
+}
+
+.addDataForm__submit {
+  padding: 0.8rem 5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: medium;
+  background-color: #06d6a0;
+  color: #fff;
+  margin: 1rem;
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+    margin: 5rem auto;
+  }
+  .container__addDataForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .addDataForm__left {
+    display: block;
+    flex-basis: 50%;
+    margin-left: -10rem;
+    margin-top: 1rem;
+  }
+  addDataForm__right {
+    flex-basis: 50%;
+    align-items: left;
+    justify-content: left;
+  }
+
+  .addDataForm__selectProvinsi {
+    padding: 0.5rem 7rem;
+    margin: 0.5rem;
+  }
+  .addDataForm__selectStatus {
+    padding: 0.5rem 6.8rem;
+    margin: 0.5rem;
+  }
+
+  .addDataForm__jumlah {
+    padding: 0.5rem 3.5rem;
+    margin: 0.5rem;
+    text-align: left;
+  }
+
+  .addDataForm__submit {
+    padding: 0.8rem 8rem;
+    border-radius: 10px;
+  }
+}

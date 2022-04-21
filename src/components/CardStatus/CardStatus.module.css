@@ -1,0 +1,23 @@
+.card__sembuh {
+  margin: 1rem;
+  padding: 2rem 6rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.card__sembuhTitle {
+  color: #073b4c;
+}
+.card__sembuh h4 {
+  color: #06d6a0;
+}
+
+/* Large screen */
+@media (min-width: 992px) {
+  .card__sembuhTitle {
+    font-size: 1.9rem;
+  }
+  .card__sembuhNumber {
+    font-size: 2.4rem;
+  }
+}

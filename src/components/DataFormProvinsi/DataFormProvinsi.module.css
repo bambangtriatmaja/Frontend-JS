@@ -1,0 +1,10 @@
+.table__dataBody {
+  padding: 2px;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+  .table__dataBody {
+    padding: 0.5rem;
+  }
+}

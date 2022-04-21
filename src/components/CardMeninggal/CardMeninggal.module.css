@@ -1,0 +1,23 @@
+.card__meninggal {
+  padding: 2rem 6rem;
+  margin: 1rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.card__meninggal h3 {
+  color: #073b4c;
+}
+.card__meninggal h4 {
+  color: #ef476f;
+}
+
+/* Large screen */
+@media (min-width: 992px) {
+  .card__meninggalTitle {
+    font-size: 1.9rem;
+  }
+  .card__meninggalNumber {
+    font-size: 2.4rem;
+  }
+}
