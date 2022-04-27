@@ -25,38 +25,47 @@ function AddMovieForm(props) {
     });
   }
 
-  // // Membuat state object false
-  // const [isDataError, setIsDataError] = useState({
-  //   title: false,
-  //   date: false,
-  //   type: false,
-  //   poster: false,
-  // });
-
-  const [isTitleError, setIsTitleError] = useState(false);
-  const [isDateError, setIsDateError] = useState(false);
-  const [isPosterError, setIsPosterError] = useState(false);
+  // Membuat state object false
+  const [isDataError, setIsDataError] = useState({
+    isTitleError: false,
+    isDateError: false,
+    isPosterError: false,
+  });
 
   const { title, date, type, poster } = formData;
+
+  const { isTitleError, isDateError, isPosterError } = isDataError;
 
   function validate() {
     // Jika data title kosong, maka set error title true
     if (title === "") {
-      setIsTitleError(true);
+      setIsDataError({
+        ...isDataError,
+        isTitleError: true,
+      });
       return false;
     } else if (date === "") {
-      setIsTitleError(false);
-      setIsDateError(true);
+      setIsDataError({
+        ...isDataError,
+        isTitleError: true,
+        isDateError: true,
+      });
       return false;
     } else if (poster === "") {
-      setIsTitleError(false);
-      setIsDateError(false);
-      setIsPosterError(true);
+      setIsDataError({
+        ...isDataError,
+        isTitleError: true,
+        isDateError: true,
+        isPosterError: true,
+      });
       return false;
     } else {
-      setIsTitleError(false);
-      setIsDateError(false);
-      setIsPosterError(false);
+      setIsDataError({
+        ...isDataError,
+        isTitleError: false,
+        isDateError: false,
+        isPosterError: false,
+      });
       return true;
     }
   }
