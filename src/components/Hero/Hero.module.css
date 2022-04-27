@@ -48,8 +48,10 @@
   }
   .hero__left {
     flex-basis: 40%;
+    margin-left: 5rem;
   }
   .hero__right {
     flex-basis: 60%;
+    margin-left: 18rem;
   }
 }
