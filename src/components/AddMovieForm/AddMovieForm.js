@@ -1,6 +1,7 @@
 import { nanoid } from "nanoid";
 import { useState } from "react";
 import Alert from "../Alert/Alert.js";
+import Button from "../ui/Button/index.js";
 import styles from "./AddMovieForm.module.css";
 
 function AddMovieForm(props) {
@@ -154,11 +155,7 @@ function AddMovieForm(props) {
             />
             {isPosterError && <Alert>Poster wajib diisi</Alert>}
             <br />
-            <input
-              className={styles.addMovieForm__submitForm}
-              type="submit"
-              value="Submit"
-            />
+            <Button full>Submit</Button>
           </form>
         </div>
       </div>
