@@ -2,22 +2,20 @@
 import styled, { css } from "styled-components";
 
 const Button = styled.button`
-  padding: 0.8rem 2rem;
+  /* padding: 0.8rem 2rem; */
   border: none;
   border-radius: 10px;
   color: #fff;
-  background-color: #4361ee;
   cursor: pointer;
 
   background-color: ${({ theme, variant }) =>
     theme.colors[variant] || theme.colors.primary};
 
-  ${(props) =>
-    props.full &&
-    css`
-      display: block;
-      width: 100%;
-    `}
+  padding: ${({ theme, size }) =>
+    theme.buttonSize[size] || theme.buttonSize.md};
+
+  font-size: ${({ theme, size }) =>
+    theme.fontSize[size] || theme.buttonSize.md};
 `;
 
 export default Button;

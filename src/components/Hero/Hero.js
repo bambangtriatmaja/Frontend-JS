@@ -28,7 +28,9 @@ function Hero() {
             <h2>{movie.Title}</h2>
             <h3>Genre: {movie.Genre}</h3>
             <p>{movie.Plot}</p>
-            <Button variant="secondary">Watch</Button>
+            <Button size="md" variant="secondary">
+              Watch
+            </Button>
           </div>
           <div class="right">
             <img src={movie.Poster} alt={movie.Title} />

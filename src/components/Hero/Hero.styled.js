@@ -19,14 +19,14 @@ const StyledHero = styled.div`
     margin-bottom: 1rem;
   }
 
-  Button {
+  /* Button {
     padding: 0.8rem 1.5rem;
     border-radius: 10px;
     border: none;
     background-color: #4261ee;
     color: #fff;
     margin-bottom: 1rem;
-  }
+  } */
 
   img {
     max-width: 100%;

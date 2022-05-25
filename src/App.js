@@ -7,11 +7,13 @@ import NowPlayingMovie from "./pages/movie/NowPlaying";
 import PopularMovie from "./pages/movie/Popular";
 import TopRatedMovie from "./pages/movie/TopRated";
 import theme from "./components/utils/constants/theme";
+import GlobalStyle from "./components/GlobalStyle";
 
 function App() {
   return (
     <div>
       <ThemeProvider theme={theme}>
+        <GlobalStyle />
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
