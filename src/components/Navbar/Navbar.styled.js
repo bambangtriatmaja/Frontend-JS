@@ -15,10 +15,10 @@ const StyledNavbar = styled.div`
 
   ul li {
     margin-bottom: 1rem;
+    color: #fff;
   }
 
-  ul li link {
-    color: #fff;
+  * {
     text-decoration: none;
   }
 

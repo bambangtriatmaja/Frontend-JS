@@ -16,17 +16,12 @@ const StyledHero = styled.div`
   }
 
   p {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
-  /* Button {
-    padding: 0.8rem 1.5rem;
-    border-radius: 10px;
-    border: none;
-    background-color: #4261ee;
-    color: #fff;
-    margin-bottom: 1rem;
-  } */
+  a {
+    text-decoration: none;
+  }
 
   img {
     max-width: 100%;
@@ -47,12 +42,12 @@ const StyledHero = styled.div`
 
     .left {
       flex-basis: 40%;
-      margin-left: 5rem;
+      margin-left: 2rem;
     }
 
     .right {
       flex-basis: 60%;
-      margin-left: 18rem;
+      margin-left: 10rem;
     }
   }
 `;
