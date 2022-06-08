@@ -2,6 +2,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Button from "../ui/Button";
+import ENDPOINTS from "../utils/constants/endpoints";
 import StyledHero from "./Hero.styled";
 
 function Hero() {
@@ -17,8 +18,7 @@ function Hero() {
 
   // Mendapatkan 1 data dari trending movies
   async function getTrendingMovies() {
-    const URL = `https://api.themoviedb.org/3/trending/movie/day?api_key=${API_KEY}`;
-    const response = await axios(URL);
+    const response = await axios(ENDPOINTS.HERO);
     console.log(response.data.results[0]);
     return response.data.results[0];
   }
