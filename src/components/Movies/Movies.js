@@ -1,21 +1,9 @@
+import { useSelector } from "react-redux";
 import Movie from "../Movie/Movie";
 import styles from "./Movies.module.css";
-import { nanoid } from "nanoid";
 
 function Movies(props) {
-  const { movies, setMovies } = props;
-
-  function tambahFilm() {
-    const movie = {
-      id: nanoid(),
-      title: "Naruto",
-      year: "2022",
-      type: "Series",
-      poster: "https://picsum.photos/300/400",
-    };
-
-    setMovies([...movies, movie]);
-  }
+  const movies = useSelector((store) => store.movies.movies);
 
   return (
     <div className={styles.container}>
@@ -26,7 +14,6 @@ function Movies(props) {
             return <Movie key={movie.id} movie={movie} />;
           })}
         </div>
-        <button onClick={tambahFilm}>Add Movie</button>
       </section>
     </div>
   );

@@ -14,7 +14,7 @@ function Detail() {
   }, [params.id]);
 
   async function getRecommendationMovies() {
-    const response = await axios(ENDPOINTS.detailId(params.id));
+    const response = await axios(ENDPOINTS.RECOMMENDATIONS(params.id));
     setMovies(response.data.results);
   }
 
