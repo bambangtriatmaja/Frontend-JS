@@ -12,6 +12,7 @@ const StyledMovie = styled.div`
   h3 {
     color: #4261ee;
     margin-bottom: 1rem;
+    text-decoration: none;
   }
 
   p {
