@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bambangtriatmaja/Frontend-JS/static/css/main.662d6425.css",
+    "main.js": "/bambangtriatmaja/Frontend-JS/static/js/main.c36a5e69.js",
+    "index.html": "/bambangtriatmaja/Frontend-JS/index.html",
+    "main.662d6425.css.map": "/bambangtriatmaja/Frontend-JS/static/css/main.662d6425.css.map",
+    "main.c36a5e69.js.map": "/bambangtriatmaja/Frontend-JS/static/js/main.c36a5e69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.662d6425.css",
+    "static/js/main.c36a5e69.js"
+  ]
+}
