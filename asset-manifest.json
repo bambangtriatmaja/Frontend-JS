@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bambangtriatmaja/Frontend-JS/static/css/main.662d6425.css",
-    "main.js": "/bambangtriatmaja/Frontend-JS/static/js/main.75cd85a7.js",
-    "index.html": "/bambangtriatmaja/Frontend-JS/index.html",
-    "main.662d6425.css.map": "/bambangtriatmaja/Frontend-JS/static/css/main.662d6425.css.map",
-    "main.75cd85a7.js.map": "/bambangtriatmaja/Frontend-JS/static/js/main.75cd85a7.js.map"
+    "main.css": "/Frontend-JS/static/css/main.662d6425.css",
+    "main.js": "/Frontend-JS/static/js/main.2839360e.js",
+    "index.html": "/Frontend-JS/index.html",
+    "main.662d6425.css.map": "/Frontend-JS/static/css/main.662d6425.css.map",
+    "main.2839360e.js.map": "/Frontend-JS/static/js/main.2839360e.js.map"
   },
   "entrypoints": [
     "static/css/main.662d6425.css",
-    "static/js/main.75cd85a7.js"
+    "static/js/main.2839360e.js"
   ]
 }
