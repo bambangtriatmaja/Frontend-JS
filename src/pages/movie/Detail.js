@@ -8,15 +8,15 @@ import ENDPOINTS from "../../components/utils/constants/endpoints";
 import { updateMovie } from "../../features/movieSlice";
 
 function Detail() {
-  const params = useParams();
+  const { id } = useParams();
   const dispatch = useDispatch();
 
   useEffect(() => {
     getRecommendationMovies();
-  }, [params.id]);
+  }, [id]);
 
   async function getRecommendationMovies() {
-    const response = await axios(ENDPOINTS.RECOMMENDATIONS(params.id));
+    const response = await axios(ENDPOINTS.RECOMMENDATIONS(id));
     dispatch(updateMovie(response.data.results));
   }
 
